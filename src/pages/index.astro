@@ -1,17 +1,55 @@
 ---
+import "../styles/global.css";
 
+import Header from "../components/landing/header.astro";
+import Introduction from "../components/landing/introduction.astro";
+import Signup from "../components/landing/signup.astro";
+import Footer from "../components/landing/footer.astro";
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Vitisterra - Registro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-linear-to-b from-mauve-300 to-mauve-200 bg-zigzag-texture">
+		<header>
+			<Header></Header>
+		</header>
+		<main>
+			<Introduction></Introduction>
+			<Signup></Signup>
+		</main>
+		<footer>
+			<Footer></Footer>
+		</footer>
+
+		<style>
+			/* 
+				Para la textura del fondo, hemos utilizado el siguiente snippet externo libre de uso:
+				Uiverse (2026). "Stale Chicken 35" [fragmento de código CSS].
+				Recuperado de https://uiverse.io/uiverse-astronaut/stale-chicken-35
+			*/
+
+			/* Principio del snippet */
+
+			.bg-zigzag-texture {
+				width: 100%;
+				height: 100%;
+				--color: #d7d0d7;
+				background: linear-gradient(45deg, var(--color) 25%, transparent 25%) -50px 0,
+						linear-gradient(-45deg, var(--color) 25%, transparent 25%) -50px 0,
+						linear-gradient(45deg, transparent 75%, var(--color) 75%) -50px 0,
+						linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0;
+				background-color: #e1dce1;
+				background-size: 10px 160px;
+			}
+
+			/* Fin del snippet */
+		</style>
 	</body>
 </html>
