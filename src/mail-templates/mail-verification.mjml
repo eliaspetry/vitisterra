@@ -1,0 +1,102 @@
+<mjml>
+	<mj-body background-color="#d7d0d7">
+		<mj-wrapper>
+			<mj-section padding-bottom="0">
+				<mj-column width="25%"> </mj-column>
+				<mj-column width="50%">
+					<mj-image
+						src="https://1pyyi.mjt.lu/img2/1pyyi/3eb73ea4-b807-4ec4-a072-45572616a391/content"
+						alt="logo"
+					/>
+				</mj-column>
+				<mj-column width="25%"> </mj-column>
+			</mj-section>
+
+			<mj-section padding-top="0" padding-bottom="0">
+				<mj-column width="100%">
+					<mj-text font-size="28px" font-weight="bold" color="#457c6a" padding-bottom="0">
+						<p>¡Ya casi lo tienes, {{ name }}!</p>
+					</mj-text>
+					<mj-text font-size="14px" line-height="20px" align="justify">
+						<p>Recientemente, hemos recibido tu solicitud de registro mediante el formulario.</p>
+						<p>
+							Para terminar de darte de alta como nuevo miembro y poder ofrecerte todas las ventajas del
+							plan "semilla", necesitamos que confirmes la validez de tu dirección de correo electrónico
+							mediante el siguiente enlace:
+						</p>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+
+			<mj-hero
+				background-url="https://1pyyi.mjt.lu/img2/1pyyi/ef9b66e0-70ba-42fc-8a7d-c414621b2195/content"
+				padding-top="25px"
+				padding-bottom="25px"
+				border-radius="5px"
+			>
+				<mj-button href="#" align="center" background-color="#309a77"> ¡Sí, este es mi correo! </mj-button>
+			</mj-hero>
+
+			<mj-section padding-top="0" padding-bottom="0">
+				<mj-column width="100%">
+					<mj-text font-size="14px" line-height="20px" align="justify">
+						<p>
+							Completar este proceso te permitirá acceder directamente a tus obsequios de bienvenida, que
+							incluyen:
+						</p>
+						<ul>
+							<li>Un <strong>mes de prueba gratuito</strong> del programa "cosecha".</li>
+							<li>
+								Un <strong>descuento de bienvenida</strong> del <strong>20%</strong> para tu primera
+								compra online.
+							</li>
+							<li>Un <strong>manual de wine-pairing</strong>, descargable en formato PDF.</li>
+						</ul>
+
+						<p>
+							Estás a un clic de unirte a una amplia comunidad comprometida con la viticultura sostenible,
+							con talleres y eventos presenciales para miembros, así como un catálogo exclusivo de vinos
+							ecológicos regionales y de alta calidad.
+						</p>
+
+						<p>¡Te esperamos para descorchar una botella juntos!</p>
+					</mj-text>
+					<mj-text font-size="16px" font-weight="bold" color="#457c6a" padding-top="0" padding-bottom="0">
+						<p>El equipo de VitisTerra.</p>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column width="100%">
+					<mj-text align="center" padding-top="0" padding-bottom="0">
+						<p>Síguenos en las redes:</p>
+					</mj-text>
+					<mj-social font-size="15px" icon-size="25px" mode="horizontal" padding-top="0" padding-bottom="0">
+						<mj-social-element name="youtube" href="#"> YouTube </mj-social-element>
+						<mj-social-element name="instagram" href="#"> Instagram </mj-social-element>
+						<mj-social-element name="x" href="#"> X </mj-social-element>
+					</mj-social>
+				</mj-column>
+			</mj-section>
+			<mj-section>
+				<mj-column width="100%">
+					<mj-text align="center" padding-top="0" padding-bottom="0" font-size="11px">
+						<p>
+							Comunicación comercial enviada por VITISTERRA, S.L. (CIF: B-00000000). <br />Sede fiscal: C/
+							Carrer Nou, 1. 43360 Cornudella de Montsant, Tarragona, España.
+						</p>
+						<p>
+							Contacto: <a href="#" style="color: #7f6a83">soporte@vitisterra.es</a> |
+							<a href="#" style="color: #7f6a83"><strong>Política de privacidad</strong></a>
+						</p>
+						<p>
+							¿Quieres dejar de recibir correos nuestros? Puedes
+							<a href="#" style="color: #7f6a83"><strong>darte de baja</strong></a
+							>.
+						</p>
+					</mj-text>
+				</mj-column>
+			</mj-section>
+		</mj-wrapper>
+	</mj-body>
+</mjml>
